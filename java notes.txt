@@ -1,0 +1,276 @@
+                  JAVA 
+
+
+java is an object-oriented-language.
+
+
+
+OBJECT:
+
+          Objects are elements of prgs that have some data which is alsso known as state.
+
+objects also have behavioor which means they can perform some operations.
+ u
+those behaviours in java is also called as methods.
+
+KEYWORDS:
+   
+KEYWORDS ARE PREDEFINED NAMES IN PROGRAMMING LANGUAGE.
+
+ THERE ARE  50 KEYWORDS.AND THERE ARE 3 LITERALS THEY ARE CALLED AS KEYWORDS BEACUSE LITERALS ARE ALSO HAVE SOME PRE DEFINED MEANING.
+
+IDENTIFIER:
+ Identifier is the name given for the components/elements of a programme
+
+
+Rules to declare identifier:
+
+
+Always starts from alphbets.
+Can't start with the digit.but can have number of     digits after the 1st character.
+It can't support the whitesapces.
+Identifiers are also case sensitive.
+We can't declsre a keyword as identifiers.
+We can't use special characters except $ and _ .
+
+
+Note: a java file can have multiple classes but the public class shold be as same as file name.
+
+               VARIABLES
+
+Variable is a piece of memory that has certain name.
+
+Varible can contain memory tha contain memory to store certain data.
+
+Every veriable should have datatype. 
+ 
+             DATA TYPE
+    
+         Data type is used to specify the data it should store in memory.
+
+primitive data-type:        
+      
+java has 8 primitive dt. 6 of them are digits. 2 of them are 
+byte(1byte)   : 8 bits  -127 to +127 
+short(2byte)  : -32768 to 32768
+int(4bytes)   : -2 million to +2 millions
+long(8bytes)  : -9 billion to +9 billion 
+double(4bytes): 1.1234567898765433
+float(8bytes) : 1.123456789f 
+char        
+
+
+----------------------------------------------------------------
+boolean public class  Demo{
+ 
+public static  void main(String args[]){
+byte y =-127;
+float f=1.123456789f;
+double d=1.1234567898765432;
+char c='a';
+boolean b =true;
+boolean x=false; 
+
+System.out.println(y);
+System.out.println(f);
+System.out.println(d);
+System.out.println(c);
+System.out.println(b);
+System.out.println(x);
+
+
+}
+}
+
+-----------------------------------------------------
+
+datatype var;   // declaration
+var = values;     // initialization
+System.out,println(var); // utilization
+
+----------------------------------------------------
+
+OPERATORS:
+
+
+An operator is a special symbol or a keyword used to designate mathematcal operations or some special type of operations.
+These operations can be performed on one or more than one values called as  operands.
+
+ARITHMANTIC OPERATORS
+ASSIGNMENT OPERATORS
+INCREMENT AND DECREMENT OPERATORS
+
+
+
+
+
+ARITHMATIC OPERATORS:
+    
+              + - * % /
+
+
+public class ArithmaticOperators{
+public static void main(String []args){
+int i=10;
+int j=20;
+int add = i+j;
+int sub= i-j;
+int mul=i*j;
+int div=i/j;
+int mod=i%j;
+System.out.println("addition="+add); // addition
+
+System.out.println("substraction="+sub); // substraction
+
+System.out.println("multiplication="+mul); // multiplication
+
+System.out.println("division="+div); // division
+
+System.out.println("modulas="+mod); // modulas
+
+}
+}
+
+----------------------------------------------------------------
+
+public class ArithmaticOperators{
+public static void main(String []args){
+int i=10;
+int j=20;
+char a='x';
+char b='z';
+
+int res= i+j;
+System.out.println("addition="+res); // addition
+
+ res= i-j;
+System.out.println("substraction="+res); // substraction
+
+res=i*j;
+System.out.println("multiplication="+res); // multiplication
+
+ res=i/j;
+System.out.println("division="+res); // division
+
+res=i%j;
+System.out.println("modulas="+res); // modulas
+
+res = a + b;
+System.out.println("concat="+res);    //concat
+
+
+}
+}
+---------------------------------------------------------------
+
+ASSIGNMENT OPERATORS:
+
++=
+-=
+*=
+%=
+/=
+
+public class AssignmentOperators{
+public static void main(String []args){
+int i;
+int j;
+i=10;
+j=20;
+System.out.println("i="+i);
+System.out.println("j="+j);
+
+i+=j;
+System.out.println("i="+i);
+
+i-=j;
+System.out.println("i="+i);
+
+i*=j;
+System.out.println("i="+i);
+
+j/=i;
+System.out.println("i="+i);
+
+i%=j;
+System.out.println("i="+i);
+
+}
+}
+----------------------------------------------------------------
+
+INCREMENT AND DECREMENT OPERATORS:
+
+
+ALSO called as unary operators as unary operators.
+    ++  --     (increment decremnt)
+
+ INCREMENT: PRE-INCREMENT  ++i         POST-INCREMNT  i++
+                                         
+                 int i=10;                  int j=10
+                  ++i;                        j++;
+               1.increment                1.substitute
+               2.substitute               2. utilize
+               3.utilize                  3.increment 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
